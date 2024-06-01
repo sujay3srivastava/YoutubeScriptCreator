@@ -8,8 +8,13 @@ from langchain.memory import ConversationBufferMemory
 from langchain.utilities import WikipediaAPIWrapper
 # Load environment variables from the .env file
 load_dotenv()
+import sys
+print("Python version")
+print(sys.version)
 # Access the API key
+#API_KEY = os.getenv('API_KEY')
 os.environ['OPENAI_API_KEY'] = st.secrets['API_KEY']
+
 
 
 #App framework
