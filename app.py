@@ -9,8 +9,8 @@ from langchain.utilities import WikipediaAPIWrapper
 # Load environment variables from the .env file
 load_dotenv()
 # Access the API key
-api_key = os.getenv('API_KEY')
-os.environ['OPENAI_API_KEY'] = api_key
+#API_KEY = os.getenv('API_KEY')
+os.environ['OPENAI_API_KEY'] = API_KEY
 
 
 #App framework
